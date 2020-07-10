@@ -4,7 +4,7 @@ const hbs = require("hbs");
 const handlebars = require("handlebars");
 const { response } = require("express");
 const app = express();
-const port = process.env.port || 4500;
+const port = process.env.PORT || 4500;
 
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views", function (err) {});
