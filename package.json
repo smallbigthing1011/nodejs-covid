@@ -11,7 +11,7 @@
   "author": "long",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
     "hbs": "^4.1.1"
